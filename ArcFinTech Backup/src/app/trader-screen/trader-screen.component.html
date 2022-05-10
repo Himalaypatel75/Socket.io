@@ -1,0 +1,443 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div style="padding-top: 2rem">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 mb-1">
+          <div class="container">
+            <div class="col-12">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                  <thead style="color: white">
+                    <th size="6" size-md="4" size-lg="2"></th>
+
+                    <tr>
+                      <th
+                        class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Deal ID
+                      </th>
+                      <th
+                        class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
+                      >
+                        Time
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Strategy
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Status
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Currency
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Tenor
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Level
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Size
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Buyer
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Seller
+                      </th>
+                      <th
+                        class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                      >
+                        Venue
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody style="color: white">
+                    <tr>
+                      <!-- *ngFor="let site of sitesData; let i= index" -->
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div
+                            class="d-flex flex-column justify-content-center"
+                          >
+                            <h6 class="mb-0 text-sm">{{DealId[0]}}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h6 class="mb-0 text-sm">{{TimeDate[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <h6 class="mb-0 text-sm">{{STRATEGY[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Status[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{CURRENCY[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{TENOR[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{LEVEL[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Size[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{BUYER[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{SELLER[0]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{VENUE[0]}}</h6>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- *ngFor="let site of sitesData; let i= index" -->
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div
+                            class="d-flex flex-column justify-content-center"
+                          >
+                            <h6 class="mb-0 text-sm">{{DealId[1]}}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h6 class="mb-0 text-sm">{{TimeDate[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <h6 class="mb-0 text-sm">{{STRATEGY[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Status[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{CURRENCY[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{TENOR[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{LEVEL[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Size[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{BUYER[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{SELLER[1]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{VENUE[1]}}</h6>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- *ngFor="let site of sitesData; let i= index" -->
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div
+                            class="d-flex flex-column justify-content-center"
+                          >
+                            <h6 class="mb-0 text-sm">{{DealId[2]}}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h6 class="mb-0 text-sm">{{TimeDate[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <h6 class="mb-0 text-sm">{{STRATEGY[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Status[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{CURRENCY[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{TENOR[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{LEVEL[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Size[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{BUYER[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{SELLER[2]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{VENUE[2]}}</h6>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- *ngFor="let site of sitesData; let i= index" -->
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div
+                            class="d-flex flex-column justify-content-center"
+                          >
+                            <h6 class="mb-0 text-sm">{{DealId[3]}}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h6 class="mb-0 text-sm">{{TimeDate[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <h6 class="mb-0 text-sm">{{STRATEGY[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Status[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{CURRENCY[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{TENOR[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{LEVEL[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Size[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{BUYER[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{SELLER[3]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{VENUE[3]}}</h6>
+                      </td>
+                    </tr>
+                    <tr>
+                      <!-- *ngFor="let site of sitesData; let i= index" -->
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div
+                            class="d-flex flex-column justify-content-center"
+                          >
+                            <h6 class="mb-0 text-sm">{{DealId[4]}}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h6 class="mb-0 text-sm">{{TimeDate[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center text-sm">
+                        <h6 class="mb-0 text-sm">{{STRATEGY[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Status[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{CURRENCY[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{TENOR[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{LEVEL[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{Size[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{BUYER[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{SELLER[4]}}</h6>
+                      </td>
+                      <td class="align-middle text-center">
+                        <h6 class="mb-0 text-sm">{{VENUE[4]}}</h6>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-3 mb-1">
+          <!-- <div class="ScrollStyle"> -->
+          <div class="container row">
+            <label class="col-md-6 col-lg-6 mb-1 whiteColor">Deal Entry</label>
+            <div class="col-md-6 col-lg-6 mb-1">
+              <div *ngIf="showNewDealButton">
+                <button class="btn btn-outline-primary" (click)="newDeal()">
+                  New
+                </button>
+              </div>
+              <div style="padding-bottom: 1rem" *ngIf="showCancelDealButton">
+                <button class="btn btn-outline-danger" (click)="cancelDeal()">
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="showMainContent" class="whiteColor">
+            <form
+              [formGroup]="validationsForm"
+              (ngSubmit)="SaveDealData()"
+              method="post"
+              class="container"
+            >
+              <div class="row">
+                <label
+                  for="example-text-input"
+                  class="col-md-6 col-lg-6 mb-1 fontColorPrimary"
+                  >Market Convention</label
+                >
+                <div class="col-md-6 col-lg-6 mb-1 fontColorPrimary">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <label
+                  for="example-text-input"
+                  class="col-md-6 col-lg-6 mb-1 fontColorPrimary"
+                  >CCY Pair</label
+                >
+                <div class="col-md-6 col-lg-6 mb-1">
+                  <select
+                    formControlName="CcyOne"
+                    [(ngModel)]="CurrencySelectedOne"
+                    (change)="onCurrencySelectedOne($event)"
+                    class="dropdown_input_box_half input_element_color_primary"
+                  >
+                    <option value="" class="text-primary font-weight-bolder">
+                      --- Select Category ---
+                    </option>
+                    <option
+                      style="color: #a45b1a"
+                      *ngFor="let currancy of this.currancyData"
+                      [value]="currancy.id"
+                    >
+                      {{ currancy.value }}
+                    </option>
+                  </select>
+
+                  <select
+                    formControlName="CcyTwo"
+                    [(ngModel)]="CurrencySelectedTwo"
+                    (change)="onCurrencySelectedTwo($event)"
+                    class="dropdown_input_box_half input_element_color_primary"
+                  >
+                    <option value="" class="text-primary font-weight-bolder">
+                      --- Select Category ---
+                    </option>
+                    <option
+                      style="color: #a45b1a"
+                      *ngFor="let currancy of this.currancyData"
+                      [value]="currancy.id"
+                    >
+                      {{ currancy.value }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <label
+                  for="example-text-input"
+                  class="col-md-6 col-lg-6 mb-1 fontColorPrimary"
+                  >Strategy</label
+                >
+                <div class="col-md-1 col-lg-1 mb-1">
+                  <select
+                    class="dropdown_input_box input_element_color_primary"
+                    [(ngModel)]="selected"
+                    (change)="onStrategySelected($event)"
+                    formControlName="Strategy"
+                    [disabled]="!dropDownEnable"
+                  >
+                    <!-- [disabled]="!validationsForm.controls['CCYTo'].value" -->
+                    <option value="" class="text-primary font-weight-bolder">
+                      --- Select Category ---
+                    </option>
+                    <option
+                      style="color: #a45b1a"
+                      *ngFor="let Strategy of this.filteredStrategy"
+                      [value]="Strategy.id"
+                    >
+                      {{ Strategy.value }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <hr />
+              <!-- FORM RENDERING -->
+              <div *ngIf="showDealEntryForm">
+                <div [ngSwitch]="DelstrategyName">
+                  <div *ngSwitchCase="1">
+                    <app-del-outright></app-del-outright>
+                  </div>
+                  <div *ngSwitchCase="2">
+                    <app-del-swap></app-del-swap>
+                  </div>
+                  <div *ngSwitchCase="3">
+                    <app-del-butterfly></app-del-butterfly>
+                  </div>
+                  <div *ngSwitchCase="4">
+                    <app-nond-outright></app-nond-outright>
+                  </div>
+                  <div *ngSwitchCase="5">
+                    <app-nds></app-nds>
+                  </div>
+                  <div *ngSwitchCase="6">
+                    <app-nond-butterfly></app-nond-butterfly>
+                  </div>
+                  <div *ngSwitchDefault>
+                    <h1>Not Available</h1>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- </div> -->
+
+        <div class="col-md-3 col-lg-3 mb-1">
+          <div style="color: white">
+            <form class="container" id="form-validation" novalidate>
+              <h1>SITE FOR SUMMARY</h1>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

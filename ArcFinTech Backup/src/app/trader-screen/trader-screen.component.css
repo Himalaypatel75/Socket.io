@@ -1,0 +1,4 @@
+.ScrollStyle {
+  max-height: 60rem;
+  overflow-y: scroll;
+}
